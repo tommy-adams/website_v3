@@ -1,0 +1,45 @@
+/* Global Styles */
+body {
+  background-color: #000;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+.text-light {
+  color: #FFF;
+}
+
+/* Non-mobile Screens */
+@media (min-width: 576px) {
+  body {
+    padding: 100px;
+    height: 2000px;
+  }
+  .landing-caption {
+    font-size: 10rem;
+    color: #FFF;
+    font-weight: 600;
+    line-height: 1;
+  }
+  .landing-text {
+    color: #FFF;
+    font-size: 3rem;
+    line-height: 2;
+    font-weight: 200;
+  }
+  #headshot {
+    width: 25%;
+    height: 600px;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+    border-radius: 5%;
+  }
+}
+
+/* Mobile Screens */
+@media (max-width: 575px) {
+  body {
+    padding: 50px;
+  }
+}
